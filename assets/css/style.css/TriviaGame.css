@@ -1,0 +1,43 @@
+body {
+  
+    background-image: url(https://www.bypeople.com/wp-content/uploads/2015/05/css-gradient-background.png); 
+	background-size: contain; 
+	padding: 65px;
+	
+
+}
+
+h1 {
+	
+	font-size: 18; 
+	font-family: Georgia; 
+	font-weight: 
+	
+
+
+}
+
+h2 {
+	font-size: 16;
+	font-family: Georgia; 
+
+}
+
+p {
+	font-size: 14;
+	font-family: Georgia;
+	
+}
+
+img {
+
+  top: 4px;
+  right: 4px;
+  bottom: 4px;
+  left: 4px;
+  border: 6px solid black;
+
+
+ }
+	
+
