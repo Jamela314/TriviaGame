@@ -1,0 +1,178 @@
+  <!DOCTYPE html>
+  <html>
+  <head>
+    <title>Beyonce's Trivia Game</title>
+
+    <link rel="stylesheet" type="text/css" href="TriviaGame.css">
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+
+  </head>
+
+  <body>
+
+    <div class="header">
+      <h1>Beyonce's Trivia Game</h1>
+    </div>
+
+
+
+    <div class="instructions">
+      <h2> Click the Start Button to Begin Trivia.</h2>
+
+      <h3> You have 20 seconds Before Your Time is Up! </h3>
+    </div> 
+        <p Time Remaining </p>
+
+    <div id="app">
+      <div class="wrapper">
+
+        <button id="start" class"start-button">Start</button>
+
+        <div id="questions" class="question-box">
+          <div class="question">
+
+          <span> 1. What city is Beyonce from?</span>
+          <input class="answer" type="radio" name="0">Atlanta</input>
+          <input class="answer" type="radio" name="0">St. Louis</input>
+          <input class="answer" type="radio" name="0">Houston</input>
+          <input class="answer" type="radio" name="0">New Orleans</input>
+
+          </div>
+
+         <div class="question">
+         <span>2. What is Beyonce's daughter's name?</span>
+         <input class="answer" type="radio" value="0">Purple Rain</input>
+         <input class="answer" type="radio" value="1">Blue Ivy</input>
+         <input class="answer" type="radio" value="0">Apple Pie</input>
+         <input class="answer" type="radio" value="0">StarFish</input>
+
+          </div>
+
+         <div class="question">
+         <span>3. How many Grammys has Beyonce won?</span>
+         <input class="answer" type="radio" value="0">12</input>
+         <input class="answer" type="radio" value="0">15</input>
+         <input class="answer" type="radio" value="0">27</input>
+         <input class="answer" type="radio" value="1">20</input>
+
+          </div>
+
+         <div class="question">
+         <span>4. What is Beyonce's favorite food?</span>
+         <input class="answer" type="radio" value="0">Jambalaya</input>
+         <input class="answer" type="radio" value="0">French Fries</input>
+         <input class="answer" type="radio" value="1">Pizza</input>
+         <input class="answer" type="radio" value="0">Popcorn</input>
+
+          </div>
+
+         <div class="question">
+         <span>5. What was the original name of Destiny's Child?</span>
+         <input class="answer" type="radio" value="1">Girl's Tyme</input>
+         <input class="answer" type="radio" value="0">Houston Little Mamas</input>
+         <input class="answer" type="radio" value="0">Next Generation</input>
+         <input class="answer" type="radio" value="0">Hip Hop Girls</input>
+
+          </div>
+
+         <div class="question">
+         <span>6. What movie did Beyonce star in?</span>
+         <input class="answer" type="radio" value="0">The Cinderella Story</input>
+         <input class="answer" type="radio" value="0">Love Jones</input>
+         <input class="answer" type="radio" value="1">Carmen, A Hip Hopera</input>
+         <input class="answer" type="radio" value="0">The Wiz</input>
+
+          </div>
+
+  
+  <script type="text/javascript" src="http://code.jquery.com/jquery-2.2.0.js"></script>
+
+  <script type="text/javascript">
+
+
+
+  var questions = [{
+    question: "What city is Beyonce from?",
+    answer: ["Atlanta", "St. Louis", "Houston", "New Orleans"],
+    correctAnswer: "Houston"
+  },
+  {
+    question: "What is Beyonce's daughter's name?",
+    answer: ["Purple Rain", "Blue Ivy", "Apple Pie", "StarFish"],
+    correctAnswer: "Blue Ivy"
+  },
+  {
+    question: "How many Grammys has Beyonce won?",
+    answer:["12", "15", "27", "20"],
+    correctAnswer: "20"
+  },
+  {
+    question: "What is Beyonce's favorite food?",
+    answer: ["Jambalaya", "French Fries", "Pizza", "Popcorn"],
+    correctAnswer: "Pizza"
+  },
+  {
+    question: "What was the original name of Destiny's Child?",
+    answer: ["Girl's Tyme", "Houston Little Mamas", "Next Generation", "Hip Hop Girls"],
+    correctAnswer: "Girl's Tyme"
+  },
+  {
+    question: "What movie did Beyonce star in?",
+    answer: ["The Cinderella Story", "Love Jones", "Carmen, A Hip Hopera", "The Wiz"],
+    correctAnswer: "Carmen, A Hip Hopera"
+  }];
+
+
+
+  var rightAnswers = 0;
+  var wrongAnswers = 0;
+  var timer = 20; 
+
+
+ 
+$(document).ready(function() { 
+
+
+
+  
+
+  $('#start').on('click', function() {
+
+  });
+
+
+    //startGame(); 
+
+    function timesUp() {
+      alert("Time's Up!");
+        }
+    
+    setTimeout(timesUp, 1000 * 20);
+  
+
+});
+    
+
+  //function generateWin() {
+  //rightAnswers++;
+  
+  //$("").html(gameHTML);
+  //setTimeout(wait, 2000);  
+//}
+
+//function generateLoss() {
+ // wrongAswers++;
+  
+  //$("").html(gameHTML);
+  //setTimeout(wait, 2000); 
+    
+
+
+
+
+
+
+
+  </script>
+   </body>
+  </html>
